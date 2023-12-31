@@ -1,7 +1,7 @@
 '''
 Date: 2023-12-29 16:22:40
 LastEditors: MaxGu flyme007@yeah.net
-LastEditTime: 2023-12-31 18:22:20
+LastEditTime: 2023-12-31 18:24:09
 FilePath: /tools/4-列表/pop.py
 Description:列表的添加和删除 
 '''
