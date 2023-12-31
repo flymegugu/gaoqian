@@ -1,3 +1,10 @@
+"""
+Date: 2023-12-16 18:21:09
+LastEditors: MaxGu flyme007@yeah.net
+LastEditTime: 2023-12-27 13:03:14
+FilePath: /tools/caishuzi.py
+Description: 
+"""
 import random
 
 # 生成一个 1~100 之间的随机数
@@ -10,10 +17,10 @@ num_guesses = 0
 while True:
     # 提示玩家输入一个整数
     guess = int(input("猜一个 1~100 之间的整数："))
-    
+
     # 猜测次数加 1
     num_guesses += 1
-    
+
     # 判断玩家猜测的数字与答案的关系
     if guess < answer:
         print("小了，请继续猜测！")
