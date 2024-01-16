@@ -1,16 +1,16 @@
 '''
 Date: 2024-01-14 16:59:14
 LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
-LastEditTime: 2024-01-14 17:11:02
+LastEditTime: 2024-01-14 17:56:32
 FilePath: /tools/python100/12.py
-Description: 
+Description: 求素数 
 '''
 #!/usr/bin/python
 # -*- coding: UTF-8 -*-
 from math import sqrt
 
 # 创建一个空列表来存储素数
-prime_numbers = []
+prime_numbers = «[]
 
 # 从101到200遍历每个数字
 for i in range(101, 201):
@@ -19,9 +19,11 @@ for i in range(101, 201):
     
     # 计算当前数字的平方根，并将其转换为整数
     k = int(sqrt(i + 1))
+    print(k)
     
     # 从2到k遍历每个数字
     for j in range(2, k + 1):
+        print(j)
         # 如果当前数字可以被当前遍历的数字整除，则将succ设置为0，并跳出当前循环
         if i % j == 0:
             succ = 0
