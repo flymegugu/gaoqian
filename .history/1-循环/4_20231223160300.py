@@ -1,13 +1,6 @@
 '''
 Date: 2023-12-22 17:38:10
 LastEditors: MaxGu flyme007@yeah.net
-LastEditTime: 2024-02-11 21:40:33
-FilePath: /tools/1-循环/4.py
-Description: 
-'''
-n'''
-Date: 2023-12-22 17:38:10
-LastEditors: MaxGu flyme007@yeah.net
 LastEditTime: 2023-12-23 16:02:46
 FilePath: /tools/4.py
 Description:  for 实例中使用了 break 语句，break 语句用于跳出当前循环体，不会执行 else 子句

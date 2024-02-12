@@ -1,10 +1,3 @@
-'''
-Date: 2023-12-22 17:38:10
-LastEditors: MaxGu flyme007@yeah.net
-LastEditTime: 2024-02-11 21:40:33
-FilePath: /tools/1-循环/4.py
-Description: 
-'''
 n'''
 Date: 2023-12-22 17:38:10
 LastEditors: MaxGu flyme007@yeah.net
