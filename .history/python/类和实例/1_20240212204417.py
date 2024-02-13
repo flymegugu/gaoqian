@@ -1,0 +1,7 @@
+"""
+Date: 2024-02-12 20:44:09
+LastEditors: flymegugu flyme007@yeah.net
+LastEditTime: 2024-02-12 20:44:16
+FilePath: /tools/python/类和实例/1.py
+Description: 
+"""
