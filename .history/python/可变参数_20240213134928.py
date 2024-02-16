@@ -50,5 +50,5 @@ def func(x,y,z=0,*args,**kwargs):
     print(args)
     print(kwargs)
 a=(44,44,4444)
-b={'c':44,'d':2312}
-print(func(1,2,3,4,5,*a,**b))
+b=
+print(func(1,2,3,4,5,t=2,tt=3))
