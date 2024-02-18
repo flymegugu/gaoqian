@@ -8,15 +8,14 @@ Description:
 
 
 def hello():
-    return "hello world"
+    return "hello world")
 
 
 def zhuangshi(func):
     def wrapped():
         return "didididi" + func() + "didididi"
-
     return wrapped
 
 
 a = zhuangshi(hello)
-print(a())
+a()

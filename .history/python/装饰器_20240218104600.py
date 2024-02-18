@@ -19,4 +19,4 @@ def zhuangshi(func):
 
 
 a = zhuangshi(hello)
-print(a())
+a()
