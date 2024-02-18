@@ -42,4 +42,5 @@ def hello():
     return "hello world"
 
 
+hello1 = makeitalic(hello)
 print(hello())

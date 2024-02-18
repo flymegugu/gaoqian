@@ -31,15 +31,16 @@ Description:
 
 
 ############
-def makeitalic(func):
-    def wrapped():
-        return "<i>" + func() + "</i>"
+# def makeitalic(func):
+#     def wrapped():
+#         return "<i>" + func() + "</i>"
 
-    return wrapped
-
-@makeitalic
-def hello():
-    return "hello world"
+#     return wrapped
 
 
-print(hello())
+# def hello():
+#     return "hello world"
+
+
+# hello1 = makeitalic(hello)
+# print(hello1())

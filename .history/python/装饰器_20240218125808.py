@@ -3,6 +3,10 @@ Date: 2024-02-18 01:25:44
 LastEditors: flymegugu flyme007@yeah.net
 LastEditTime: 2024-02-18 12:58:03
 FilePath: /tools/python/装饰器.py
+
+"""
+Date: 2024-02-18 01:25:44
+LastEditors: flymegugu flyme007@yeah.net
 LastEditTime: 2024-02-18 10:38:42
 FilePath: /tools/python/装饰器.py
 Description: 
@@ -37,9 +41,10 @@ def makeitalic(func):
 
     return wrapped
 
-@makeitalic
+
 def hello():
     return "hello world"
 
 
-print(hello())
+hello1 = makeitalic(hello)
+print(hello1())

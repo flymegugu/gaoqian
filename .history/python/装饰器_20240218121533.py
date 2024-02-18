@@ -1,8 +1,6 @@
 """
 Date: 2024-02-18 01:25:44
 LastEditors: flymegugu flyme007@yeah.net
-LastEditTime: 2024-02-18 12:58:03
-FilePath: /tools/python/装饰器.py
 LastEditTime: 2024-02-18 10:38:42
 FilePath: /tools/python/装饰器.py
 Description: 
@@ -29,17 +27,7 @@ Description:
 # print(a())
 # print(a.__name__)
 
-
-############
 def makeitalic(func):
     def wrapped():
-        return "<i>" + func() + "</i>"
-
-    return wrapped
-
-@makeitalic
-def hello():
-    return "hello world"
-
-
-print(hello())
+        return "<i>" + func()+"</i>"
+        
