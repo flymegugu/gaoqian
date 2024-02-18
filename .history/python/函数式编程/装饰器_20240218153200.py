@@ -65,22 +65,32 @@ func = decorator_one(decorator_two(func))
 
 # print(hello())
 ####带参数装饰器
-def makeitalic(func):
-    def wrapped(*args, **kwargs):
-        ret = func(*args, **kwargs)
-        return "<i>" + ret + "<\i>"
+# def makeitalic(func):
+#     def wrapped(*args, **kwargs):
+#         ret = func(*args, **kwargs)
+#         return "<i>" + ret + "<\i>"
 
-    return wrapped
-
-
-@makeitalic
-def hello(name):
-    return "hello %s" % name
+#     return wrapped
 
 
-@makeitalic
-def hello2(name1, name2):
-    return "hello %s,%s" % (name1, name2)
+# @makeitalic
+# def hello(name):
+#     return "hello %s" % name
 
-print(hello('tom'))
-print(hello2('tomoo','tda'))
+
+# @makeitalic
+# def hello2(name1, name2):
+#     return "hello %s,%s" % (name1, name2)
+
+
+# print(hello('tom'))
+# print(hello2('tomoo','tda'))
+def wrap_in_tag(tag):
+    def decorator(func):
+        def wrapped(*args, **kwargs):
+            ret = func(*args, **kwargs)
+            return "<" + tag + ">" + ret + "</" + tag + ">"
+        return wrapped
+    return decorator
+
+makebold=w
