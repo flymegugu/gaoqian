@@ -9,10 +9,4 @@ Description: partial 接收函数 test 作为参数，固定 test 的参数 y=3�
     当函数参数太多，需要固定某些参数时，可以使用 functools.partial 创建一个新的函数。
 
 """
-from functools import  partial
-
-def multiply(x,y):
-    return x*y
-
-test=partial(multiply,4)
-print(test(45))
+from func

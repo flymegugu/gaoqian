@@ -11,8 +11,4 @@ Description: partial 接收函数 test 作为参数，固定 test 的参数 y=3�
 """
 from functools import  partial
 
-def multiply(x,y):
-    return x*y
-
-test=partial(multiply,4)
-print(test(45))
+def

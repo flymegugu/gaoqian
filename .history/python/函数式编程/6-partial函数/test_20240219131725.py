@@ -13,6 +13,4 @@ from functools import  partial
 
 def multiply(x,y):
     return x*y
-
-test=partial(multiply,4)
-print(test(45))
+    
