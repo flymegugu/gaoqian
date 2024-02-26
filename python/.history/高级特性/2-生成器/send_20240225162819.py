@@ -1,0 +1,8 @@
+'''
+Date: 2024-02-25 16:28:16
+LastEditors: flymegugu flyme007@yeah.net
+LastEditTime: 2024-02-25 16:28:19
+FilePath: /python/高级特性/2-生成器/send.py
+Description: 
+'''
+
