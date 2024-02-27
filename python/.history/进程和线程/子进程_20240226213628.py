@@ -9,7 +9,5 @@ Description:
 import subprocess
 
 print("$ nslookup www.python.org")
-r = subprocess.call(["nslookup", "www.python.org"])
-r1 = subprocess.call(["ping", "www.python.org"])
+subprocess.call(["nslookup", "www.python.org"])
 print("exit code:", r)
-print("exit code:", r1)

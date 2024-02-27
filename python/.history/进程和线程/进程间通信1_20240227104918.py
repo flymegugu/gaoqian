@@ -1,0 +1,10 @@
+"""
+Date: 2024-02-27 10:48:14
+LastEditors: flymegugu flyme007@yeah.net
+LastEditTime: 2024-02-27 10:48:16
+FilePath: /python/进程和线程/进程间通信1.py
+Description: 
+"""
+from multiprocessing import Process,Queue
+def write(q):
+    print('')
