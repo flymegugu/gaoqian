@@ -46,7 +46,7 @@ def count_digits_v3(fname):
         _read = partial(fp.read, block_size)
         for chunk in iter(_read, ""):
             for s in chunk:
-                if s.isdigit():
+                if s.digit():
                     count += 1
     return count
 

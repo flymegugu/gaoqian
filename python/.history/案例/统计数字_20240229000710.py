@@ -46,10 +46,10 @@ def count_digits_v3(fname):
         _read = partial(fp.read, block_size)
         for chunk in iter(_read, ""):
             for s in chunk:
-                if s.isdigit():
+                if s.digit():
                     count += 1
     return count
 
 
-a = count_digits_v3("高级特性/3-上下文管理器/上下文管理器.py")
+a = count_digit("高级特性/3-上下文管理器/上下文管理器.py")
 print(a)
