@@ -5,13 +5,13 @@ LastEditTime: 2024-03-13 21:46:46
 FilePath: /python100/test.py
 Description: 
 """
-def check_num(file):
+def check_num(digit):
     count = 0 
-    with open(file,'r') as f:
+    with open('xxx.txt','r') as f:
         for i in f:
             for l in i:
                 if l.isdigit():
                     count+=1
         return count
-        f.close()
-print(check_num('xxx.txt'))
+        f.c
+

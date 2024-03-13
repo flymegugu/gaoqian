@@ -7,11 +7,11 @@ Description:
 """
 def check_num(file):
     count = 0 
-    with open(file,'r') as f:
+    with open('file','r') as f:
         for i in f:
             for l in i:
                 if l.isdigit():
                     count+=1
         return count
         f.close()
-print(check_num('xxx.txt'))
+print(check_num('xxx.txt')

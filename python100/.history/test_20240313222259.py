@@ -7,7 +7,7 @@ Description:
 """
 def check_num(file):
     count = 0 
-    with open(file,'r') as f:
+    with open('file','r') as f:
         for i in f:
             for l in i:
                 if l.isdigit():
